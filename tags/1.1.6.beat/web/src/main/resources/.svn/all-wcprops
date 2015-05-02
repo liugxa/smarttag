@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/xwork-conversion.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/log4j.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/applicationContext.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/struts.xml
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/struts.properties
+END

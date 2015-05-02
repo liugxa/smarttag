@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/resources
+END
+struts-smart.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/resources/struts-smart.xml
+END
+smart-global.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/resources/smart-global.properties
+END

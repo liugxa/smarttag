@@ -1,0 +1,57 @@
+#labels FAQ
+ * *How to define the row action?*
+   {{{
+   <pf:list name="list" action="/toList.action">
+    <pf:table>
+        <pf:column name="id" label="ID"/>
+        ... ... 
+        //row action
+        <pf:column name="action" label="Actions" decorate="select" parameters="{'action':'Action','----':'----','start':'Start','stop':'Stop'}"/>
+    </pf:table>
+   </pf:list>
+
+   /**
+    * overwrite the row action's onchange event.
+    * the bean is an JSON object, the smart tag will transfer
+    * the row data to it automatically.
+    */
+   function st_select_onChange(_formId , _this , _bean){
+
+   }
+   }}}
+
+ * *How to display the element's value which be declared in properties file?*
+  * Set the "resource" to your properties package name.
+  {{{
+  <pf:list name="list" action="/toList.action" resurce="com.default.package.application">
+    ... ...
+    <pf:table resource="com.table.package">
+  </pf:list>
+  }}}
+  * In the JSP file, the "label" value should be same as the one which be define in the properties file
+  {{{
+  <pf:list name="list" action="/toList.action" resurce="com.default.package.application">
+    ... ...
+   <pf:table>
+     <pf:column name="id" label="list.id"/>
+     ... ...
+   </pf:table>
+  </pf:list>
+  }}}
+
+ * *How to get the bean property value on the JSP file if the decorate is "link"?*
+  * In the old version, to decorate the link(add the other property value of the bean), you should extends the define two classes, one implements the IDataColumnDecorate and another extends the DefaultColumnDecorate or implements the IColumnDecorate interface. Now, you can directly to get this property of the bean on the JSP file. Below is an example about it:
+  {{{
+ <pf:list name="request" action="/request/toList.action" resource="com.platform.gui.demo.request.application" form="">
+  <pf:filter label="filter">
+   <pf:section name="section0" label="Find this host">
+    <pf:item label="Request Name" name="name" decorate="input"/>
+    <pf:button label="Find"/>
+   </pf:section>
+  </pf:filter>	    
+  <pf:table>
+   <pf:column key="id" name="ids" label="request.id" decorate="checkbox-all" title="title.request.id"/>
+   <pf:column name="name" label="Request Name" '''decorate="link"''' '''parameters="/request/toRequest.action?id=#{id}"''' align="right"/>
+  </pf:table>
+ </pf:list>
+ }}}

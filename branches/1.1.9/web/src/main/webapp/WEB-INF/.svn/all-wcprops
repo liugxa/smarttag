@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/325/branches/1.1.9/web/src/main/webapp/WEB-INF
+END
+decorators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/301/branches/1.1.9/web/src/main/webapp/WEB-INF/decorators.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/325/branches/1.1.9/web/src/main/webapp/WEB-INF/web.xml
+END

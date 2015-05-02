@@ -1,0 +1,164 @@
+{
+id=0,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=1,
+name:"Small Windows 2008",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 7.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=2,
+name:"Small RedHat Linux 5.1",
+cpus:1,
+memory:2,
+storage:10,
+platform:"RedHat Linux 5.1",
+software:"Eclipse IDE, Apache 2.0, MySQL 5.0",
+price:"$0.10"
+}
+
+{
+id=3,
+name:"Small RedHat Linux 5.2",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Small RedHat Linux 5.2",
+software:"Eclipse IDE, Apache 2.2, MySQL 5.0",
+price:"$0.10"
+}
+
+{
+id=4,
+name:"Medium Windows 2003",
+cpus:2,
+memory:4,
+storage:20,
+platform:"Medium Windows 2003(64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.20"
+}
+
+{
+id=5,
+name:"Medium Windows 2008",
+cpus:2,
+memory:4,
+storage:20,
+platform:"Windows 2008 Server (64-bit)",
+software:"Eclipse IDE, IIS 7.0, MSSQL 2005 Express",
+price:"$0.20"
+}
+
+{
+id=6,
+name:"Medium RedHat Linux 5.1",
+cpus:2,
+memory:4,
+storage:20,
+platform:"RedHat Linux 5.1 (64-bit) ",
+software:"Eclipse IDE, Apache 2.0, MySQL 5.0",
+price:"$0.20"
+}
+
+{
+id=7,
+name:"Medium RedHat Linux 5.2",
+cpus:2,
+memory:4,
+storage:20,
+platform:"RedHat Linux 5.2 (64-bit)",
+software:"Eclipse IDE, Apache 2.2, MySQL 5.0",
+price:"$0.20"
+}
+
+{
+id=8,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=9,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=10,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=11,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=12,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=13,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}
+
+{
+id=14,
+name:"Small Windows 2003",
+cpus:1,
+memory:2,
+storage:10,
+platform:"Windows 2003 Server (64-bit)",
+software:"Eclipse IDE, IIS 6.0, MSSQL 2005 Express",
+price:"$0.10"
+}

@@ -1,0 +1,120 @@
+{
+id:0,
+name:"IBM Blade Windows 2008 Server",
+model:"IBM BladeCenter HS21 XM",
+type:"Intel Xeon 5150 Processor",
+ncpus:2,
+ncores:2,
+speed:2.66,
+memory:32,
+os:"Windows 2008 Server (64-bit)",
+price:"$0.50"
+}
+
+{
+id:1,
+name:"IBM Blade Windows 2003 Server",
+model:"IBM BladeCenter HS21 XM",
+type:"Intel Xeon 5150 Processor",
+ncpus:2,
+ncores:2,
+speed:2.66,
+memory:32,
+os:"Windows 2008 Server (64-bit)",
+price:"$0.50"
+}
+
+
+{
+id:2,
+name:"IBM Blade Linux Server",
+model:"IBM BladeCenter HS21 XM",
+type:"Intel Xeon 5150 Processor",
+ncpus:2,
+ncores:2,
+speed:2.66,
+memory:32,
+os:"RedHat Linux 5.2 (64-bit)",
+price:"$0.50"
+}
+
+{
+id:3,
+name:"HP Blade Windows 2008 Server",
+model:"HP ProLiant BL495c-g5",
+type:"AMD Opteron processor Model 2384",
+ncpus:2,
+ncores:4,
+speed:2.7,
+memory:128,
+os:"Windows 2008 Server (64-bit)",
+price:"$1.00"
+}
+
+
+{
+id:4,
+name:"HP Blade Windows 2003 Server",
+model:"HP ProLiant BL495c-g5",
+type:"AMD Opteron processor Model 2384",
+ncpus:2,
+ncores:4,
+speed:2.7,
+memory:128,
+os:"Windows 2008 Server (64-bit)",
+price:"$1.00"
+}
+
+
+{
+id:5,
+name:"HP Blade Linux Server",
+model:"HP ProLiant BL495c-g5",
+type:"AMD Opteron processor Model 2384",
+ncpus:2,
+ncores:4,
+speed:2.7,
+memory:128,
+os:"RedHat Linux 5.2 (64-bit)",
+price:"$1.00"
+}
+
+{
+id:6,
+name:"Dell Blade Windows 2008 Server",
+model:"Dell PowerEdge M600",
+type:"Intel Xeon 5400 series",
+ncpus:2,
+ncores:4,
+speed:3.16,
+memory:32,
+os:"Windows 2008 Server (64-bit)",
+price:"$1.00"
+}
+
+{
+id:7,
+name:"Dell Blade Windows 2003 Server",
+model:"Dell PowerEdge M600",
+type:"Intel Xeon 5400 series",
+ncpus:2,
+ncores:4,
+speed:3.16,
+memory:32,
+os:"Windows 2008 Server (64-bit)",
+price:"$1.00"
+}
+
+
+{
+id:8,
+name:"Dell Blade Linux Server",
+model:"Dell PowerEdge M600",
+type:"Intel Xeon 5400 series",
+ncpus:2,
+ncores:4,
+speed:3.16,
+memory:32,
+os:"RedHat Linux 5.2 (64-bit)",
+price:"$1.00"
+}

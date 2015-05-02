@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/comparator
+END
+CompareException.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/comparator/CompareException.class
+END
+GenericComparator.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/comparator/GenericComparator.class
+END
+SortOrder.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/comparator/SortOrder.class
+END
+SortException.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/comparator/SortException.class
+END

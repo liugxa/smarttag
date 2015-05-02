@@ -1,0 +1,5 @@
+
+1. Modify the pagination.ftl file to fix the bug
+The table pagination is wrong. It should be 1-6 for the first page and 7-8 for the second page when I have 8 rows. And it needs to grey out “First” if it is the first page and grey out “Last” if it is the last page (grey out both if it is only one page)
+
+2.How to configure row action?

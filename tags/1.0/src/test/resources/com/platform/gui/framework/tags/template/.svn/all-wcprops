@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template
+END
+tableGrid.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template/tableGrid.ftl
+END
+filterResult.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template/filterResult.ftl
+END
+preferences.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template/preferences.ftl
+END
+filter.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template/filter.ftl
+END
+pagination.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template/pagination.ftl
+END
+common.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/14/tags/1.0/src/test/resources/com/platform/gui/framework/tags/template/common.ftl
+END

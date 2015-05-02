@@ -1,0 +1,25 @@
+#labels Phase-Support,RoadMap
+*version 1.5.X*
+  * add the import/export function.
+  * add the preference function.
+
+*version 1.4.X*
+  * refactoring the IColumnDecorate/IItemDecorate interface.
+  * support to get the property value of the bean on the JSP.
+
+*version 1.3.X*
+  * refactrong the IColumnDecorate/IItemDecorate interface.
+
+*version 1.2.X*
+  * support the filter function.
+
+*version 1.1.X*
+  * redefine the filter function and fix some of the bugs about it.
+  * support to display the action's form or not flexibility.(In some of the cases, user want  to define the action's form by himself and consider the list table as a part of the page.)
+  * support to define the template on each of the element.
+  * support to define the message in difference properties files.
+
+*version 1.0.X*
+  * add the i18n function
+  * enable to run in the strut1/2 environment.
+  * refactoring the war application.

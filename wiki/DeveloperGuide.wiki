@@ -1,0 +1,46 @@
+#labels DeveloperGuid
+== Web Filter ==
+The smart tag has packaged all of the required css/js/images into the jar file. You just only needs
+ * Configure a web filter in your web.xml file
+ {{{
+    <filter>
+        <filter-name>smarttag</filter-name>
+        <filter-class>com.platform.gui.framework.smart.filter.SmartTagFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>smarttag</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+ }}}
+
+ * Add the *<pf:header/>* element in your JSP file
+ {{{
+ <%@ taglib prefix="s" uri="/struts-tags" %>
+ <%@ taglib prefix="pf" uri="http://www.platform.com/tags" %>
+ <html>
+  <head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 	<pf:header/>
+  </head>
+  ... ...
+ </html>
+ }}}
+
+== Configure the filter interceptor ==
+ To support the filter function, your action enable to extends the ListTableAction or not. if your action do not extends the ListTableAction, you should
+ * Define the "filterData" interceptor in the struts configure file
+ {{{ 
+ <interceptors>
+    <interceptor name="annotation" class="com.opensymphony.xwork2.interceptor.annotations.AnnotationWorkflowInterceptor"/>
+    <interceptor name="filterData" class="com.platform.gui.framework.smart.interceptor.FilterDataInterceptor"/>  
+    <interceptor-stack name="gui-default">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="annotation"/>
+    </interceptor-stack>
+  </interceptors>
+ 		
+  <default-interceptor-ref name="gui-default"/>
+ }}}
+ 
+ * Define the a new property "filterData" in your Action

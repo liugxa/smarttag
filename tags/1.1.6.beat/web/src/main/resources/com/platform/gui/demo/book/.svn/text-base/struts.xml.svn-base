@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="book" namespace="/book" extends="struts-default">
+
+		<!-- List Table Examples -->
+		<action name="toList" class="com.platform.gui.demo.book.action.BookListAction" method="toList">
+			<result>/jsp/demo/book/bookList.jsp</result>
+		</action>
+
+		<action name="toList1" class="com.platform.gui.demo.book.action.BookListAction" method="toList">
+			<result>/jsp/demo/book/bookList1.jsp</result>
+		</action>
+		
+		<action name="toList2" class="com.platform.gui.demo.book.action.BookListAction" method="toList">
+			<result>/jsp/demo/book/bookList2.jsp</result>
+		</action>
+							
+		<action name="toList3" class="com.platform.gui.demo.book.action.BookListAction" method="toList">
+			<result>/jsp/demo/book/bookList3.jsp</result>
+		</action>	
+
+		<action name="toList4" class="com.platform.gui.demo.book.action.BookListAction" method="toList">
+			<result>/jsp/demo/book/bookList4.jsp</result>
+		</action>
+				
+		<action name="toAuthor" class="com.platform.gui.demo.book.action.BookListAction" method="toAuthor">
+			<result>/jsp/demo/book/author.jsp</result>
+		</action>			
+	</package>
+</struts>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources
+END
+status.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/status.ftl
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/xwork-conversion.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/log4j.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/applicationContext.xml
+END
+common.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/common.ftl
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/struts.xml
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/280/branches/mainline/web/src/main/resources/struts.properties
+END

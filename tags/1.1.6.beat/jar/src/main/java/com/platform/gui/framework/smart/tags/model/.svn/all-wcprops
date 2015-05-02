@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model
+END
+SmartOption.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartOption.java
+END
+SmartFilterResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartFilterResult.java
+END
+SmartSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartSection.java
+END
+SmartButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartButton.java
+END
+SmartTableGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartTableGrid.java
+END
+SmartCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartCell.java
+END
+SmartPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartPage.java
+END
+SmartListTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartListTable.java
+END
+SmartRowAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartRowAction.java
+END
+SmartPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartPreference.java
+END
+SmartElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartElement.java
+END
+SmartPagination.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartPagination.java
+END
+SmartFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartFilter.java
+END
+SmartRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/149/tags/1.1.6.beat/jar/src/main/java/com/platform/gui/framework/smart/tags/model/SmartRow.java
+END

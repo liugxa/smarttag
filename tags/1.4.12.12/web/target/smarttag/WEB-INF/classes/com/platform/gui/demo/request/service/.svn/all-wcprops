@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/smarttag/WEB-INF/classes/com/platform/gui/demo/request/service
+END
+mock.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/smarttag/WEB-INF/classes/com/platform/gui/demo/request/service/mock.xml
+END
+MockRequestService.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/smarttag/WEB-INF/classes/com/platform/gui/demo/request/service/MockRequestService.class
+END

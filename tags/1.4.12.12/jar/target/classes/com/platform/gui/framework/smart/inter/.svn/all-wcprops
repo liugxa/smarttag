@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter
+END
+IDataItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IDataItem.class
+END
+IDataColumnDecorate.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IDataColumnDecorate.class
+END
+IEnablePagination.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IEnablePagination.class
+END
+IEnablePreference.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IEnablePreference.class
+END
+IItemDecorate.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IItemDecorate.class
+END
+IDataColumn.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IDataColumn.class
+END
+IDataFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IDataFilter.class
+END
+IColumnDecorate.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IColumnDecorate.class
+END
+IDataRecordList.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IDataRecordList.class
+END
+IDataItemDecorate.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IDataItemDecorate.class
+END
+IEnableFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/inter/IEnableFilter.class
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports
+END
+TEST-com.platform.gui.demo.dynamic.action.TestMockDataRecordList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports/TEST-com.platform.gui.demo.dynamic.action.TestMockDataRecordList.xml
+END
+com.platform.gui.demo.dynamic.action.TestMockDataRecordList.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports/com.platform.gui.demo.dynamic.action.TestMockDataRecordList.txt
+END
+com.platform.gui.demo.request.service.TestMockRequestService.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports/com.platform.gui.demo.request.service.TestMockRequestService.txt
+END
+TEST-com.platform.gui.demo.request.service.TestMockRequestService.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports/TEST-com.platform.gui.demo.request.service.TestMockRequestService.xml
+END
+TEST-com.platform.gui.demo.dynamic.action.TestMockDataColumn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports/TEST-com.platform.gui.demo.dynamic.action.TestMockDataColumn.xml
+END
+com.platform.gui.demo.dynamic.action.TestMockDataColumn.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/surefire-reports/com.platform.gui.demo.dynamic.action.TestMockDataColumn.txt
+END

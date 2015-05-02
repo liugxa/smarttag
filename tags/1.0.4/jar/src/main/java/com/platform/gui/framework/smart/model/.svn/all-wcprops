@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/104/tags/1.0.4/jar/src/main/java/com/platform/gui/framework/smart/model
+END
+MutipleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/104/tags/1.0.4/jar/src/main/java/com/platform/gui/framework/smart/model/MutipleBean.java
+END
+PreferenceConfigure.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/104/tags/1.0.4/jar/src/main/java/com/platform/gui/framework/smart/model/PreferenceConfigure.java
+END
+FilterValueRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/104/tags/1.0.4/jar/src/main/java/com/platform/gui/framework/smart/model/FilterValueRange.java
+END
+FilterCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/104/tags/1.0.4/jar/src/main/java/com/platform/gui/framework/smart/model/FilterCondition.java
+END
+FilterData.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/104/tags/1.0.4/jar/src/main/java/com/platform/gui/framework/smart/model/FilterData.java
+END

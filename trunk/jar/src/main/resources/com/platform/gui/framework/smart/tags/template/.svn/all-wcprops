@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/416/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template
+END
+listTable.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/415/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/listTable.ftl
+END
+tableGrid.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/416/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/tableGrid.ftl
+END
+form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/412/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/form.ftl
+END
+preferences.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/416/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/preferences.ftl
+END
+filter.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/416/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/filter.ftl
+END
+scripts.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/411/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/scripts.ftl
+END
+pagination.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/414/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/pagination.ftl
+END
+common.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/376/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/common.ftl
+END
+select.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/399/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/select.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/410/trunk/jar/src/main/resources/com/platform/gui/framework/smart/tags/template/header.ftl
+END

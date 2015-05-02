@@ -1,0 +1,15 @@
+
+.timeInput{
+	width:139px;
+	float:left;
+}
+
+.timeImage{
+	background: transparent url(../images/cal.gif) repeat scroll 0% 0%; 
+	width: 16px; 
+	height: 16px; 
+	float: left;
+	margin:2px 3px
+}
+
+

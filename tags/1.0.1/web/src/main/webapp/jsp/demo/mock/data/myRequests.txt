@@ -1,0 +1,59 @@
+{
+id:0,
+date:"July 10, 2008 14:00",
+name:"ABS Test Machines",
+startDate:"July 12, 2008 9:00",
+endDate:"July 14, 2008 18:00",
+recurring:"Yes (Last start time on July 12, 2008 18:00)",
+status:"Expired",
+cpus:10,
+desc:"description 0"
+}
+
+{
+id:12,
+date:"September 10, 2008 9:00",
+name:"Some Dev boxes",
+startDate:"September 10, 2009 14:00",
+endDate:"December 1, 2009 17:30",
+recurring:"Yes (Next start time on September 10, 2009 18:00)",
+status:"Approved",
+cpus:24,
+desc:"description 0"
+}
+
+{
+id:13,
+date:"January 14, 2009 14:00",
+name:"Performance test environment",
+startDate:"January 15, 2009 12:00",
+endDate:"January 31, 2009 :00",
+recurring:"Yes (Next start time on January 20, 2009 13:00)",
+status:"Approved",
+cpus:30,
+desc:"description 0"
+}
+
+{
+id:24,
+date:"February 14, 2009 14:00",
+name:"IFF deterministic simulation",
+startDate:"February 14, 2009 16:00",
+endDate:"February 20, 2009 13:00",
+recurring:"No",
+status:"Approved",
+cpus:50,
+desc:"description 0"
+}
+
+{
+id=25,
+date:"January 14, 2009 14:00",
+name:"Test Machines",
+startDate:"January 15, 2009 12:00",
+endDate:"January 31, 2009 :00",
+recurring:"Yes (Next start time on January 20, 2009 13:00)",
+status:"Approved",
+cpus:24,
+desc:"description 0"
+}

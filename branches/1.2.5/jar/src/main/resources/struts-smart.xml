@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="struts-smart" extends="struts-default">
+		<interceptors>
+		    <interceptor name="annotation" class="com.opensymphony.xwork2.interceptor.annotations.AnnotationWorkflowInterceptor"/>
+			<interceptor name="filterData" class="com.platform.gui.framework.smart.interceptor.FilterDataInterceptor"/>
+		    	
+	    	<interceptor-stack name="gui-default">
+	            <interceptor-ref name="defaultStack"/>
+				<interceptor-ref name="annotation"/>
+	        </interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="gui-default"/>	
+	</package>
+</struts>

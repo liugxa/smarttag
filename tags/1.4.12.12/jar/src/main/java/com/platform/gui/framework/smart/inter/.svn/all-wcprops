@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter
+END
+IColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IColumnDecorate.java
+END
+IDataFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IDataFilter.java
+END
+IDataColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IDataColumn.java
+END
+IItemDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IItemDecorate.java
+END
+IEnablePreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IEnablePreference.java
+END
+IDataItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IDataItem.java
+END
+IDataColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IDataColumnDecorate.java
+END
+IEnablePagination.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IEnablePagination.java
+END
+IEnableFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IEnableFilter.java
+END
+IDataItemDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IDataItemDecorate.java
+END
+IDataRecordList.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/src/main/java/com/platform/gui/framework/smart/inter/IDataRecordList.java
+END

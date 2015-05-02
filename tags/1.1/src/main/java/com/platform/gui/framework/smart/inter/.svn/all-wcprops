@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/32/tags/1.1/src/main/java/com/platform/gui/framework/smart/inter
+END
+IEnableDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/32/tags/1.1/src/main/java/com/platform/gui/framework/smart/inter/IEnableDecorate.java
+END
+IEnablePagination.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/tags/1.1/src/main/java/com/platform/gui/framework/smart/inter/IEnablePagination.java
+END
+IEnableFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/32/tags/1.1/src/main/java/com/platform/gui/framework/smart/inter/IEnableFilter.java
+END
+IDataRecordList.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/32/tags/1.1/src/main/java/com/platform/gui/framework/smart/inter/IDataRecordList.java
+END
+IEnableAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/32/tags/1.1/src/main/java/com/platform/gui/framework/smart/inter/IEnableAction.java
+END

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.platform.gui.framework.smart</groupId>
+		<artifactId>smarttag-framework</artifactId>
+		<version>1.1-SNAPSHOT</version>		
+	</parent>
+
+	<artifactId>smarttag-struts2</artifactId>
+	<packaging>jar</packaging>
+	<name>SmartTag Strut(1/2) Jar</name>
+
+    <build>
+    	<finalName>smarttag-struts2-${smarttag.jar.version}</finalName>
+    	<plugins>
+    		<plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                   <source>1.5</source>
+                   <target>1.5</target>			   
+                </configuration>
+            </plugin>
+		      <plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-source-plugin</artifactId>
+		        <configuration>
+		          <finalName>smarttag-struts2-${smarttag.jar.version}-src-jar</finalName>
+		          <attach>false</attach>
+		        </configuration>
+		      </plugin>			
+    	</plugins>
+    </build>
+	
+	<reporting>
+    	<plugins>
+    	  	<plugin>
+        		<groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<linksource>true</linksource>
+				</configuration>
+			</plugin>
+		</plugins>
+	</reporting>
+	
+	<dependencies>
+	
+		<!-- smart-tag -->
+		<dependency>
+			<groupId>com.platform.gui.framework.smart</groupId>
+			<artifactId>smarttag-jar</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		
+		<!--  Struts 2 -->
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.0.9</version>
+		</dependency>
+	</dependencies>
+</project>

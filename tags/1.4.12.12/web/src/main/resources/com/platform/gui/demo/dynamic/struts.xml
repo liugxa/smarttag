@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="dynamic" namespace="/dynamic" extends="struts-smart">
+		<!-- List Table Examples -->
+		<action name="toList" class="com.platform.gui.demo.dynamic.action.MockTableGridAction" method="toList">
+			<interceptor-ref name="defaultStack"/>
+			<interceptor-ref name="annotation"/>
+			<interceptor-ref name="filterData"/>
+			<result>list.jsp</result>
+		</action>	
+	</package>
+</struts>

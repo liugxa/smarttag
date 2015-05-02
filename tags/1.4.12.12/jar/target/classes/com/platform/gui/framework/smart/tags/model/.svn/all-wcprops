@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model
+END
+SmartHeader.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartHeader.class
+END
+SmartPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartPage.class
+END
+SmartResourceBundle.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartResourceBundle.class
+END
+SmartButton.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartButton.class
+END
+SmartSection.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartSection.class
+END
+SmartItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartItem.class
+END
+SmartFilterResult.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartFilterResult.class
+END
+SmartFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartFilter.class
+END
+SmartPagination.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartPagination.class
+END
+SmartPreference.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartPreference.class
+END
+SmartListTable.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartListTable.class
+END
+SmartTableGrid.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartTableGrid.class
+END
+SmartCell.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartCell.class
+END
+SmartRow.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartRow.class
+END
+SmartElement.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/model/SmartElement.class
+END

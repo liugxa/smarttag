@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags
+END
+SmartTableGridTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartTableGridTag.java
+END
+SmartButtonTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartButtonTag.java
+END
+SmartSectionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartSectionTag.java
+END
+SmartOptionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartOptionTag.java
+END
+SmartColumnTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartColumnTag.java
+END
+SmartFilterTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartFilterTag.java
+END
+SmartElementTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartElementTag.java
+END
+SmartRowActionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartRowActionTag.java
+END
+SmartListTableTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/SmartListTableTag.java
+END

@@ -1,0 +1,68 @@
+table,tr,td{
+	overflow:visible;
+}
+.baseDiv{
+	width:auto;
+	position:relative;
+	height:20px;
+	*height:20px;
+	}
+.myinput, .myinput-disable{
+	width:100%;
+	height:18px;
+	*height:17px;
+	border:1px solid #036;
+	padding:0px;
+	z-index:1;
+	margin-left:0px;
+	}
+.myinput-disable{
+	background-color: #F3F3F3 !important;
+}
+.iconInput{
+	position:absolute;
+	top:1px;
+	*top:1px;
+	right:0px;
+	width:17px; 
+	height:18px; 
+	background:url("../images/selectIcon.png") no-repeat left top;
+	cursor:pointer;
+	*cursor:hand;
+	}
+.iconInput:hover{
+	background:url("../images/selectIcon.png") no-repeat left bottom;
+	}		
+.myselectClose,.myselectOpen{
+	position:absolute;
+	width:100%;
+	height:80px;
+	*left:0px;
+	border:0px;
+	margin:0px;
+	}
+.myselectClose{
+	display:none;
+	}
+.myselectOpen{
+	display:block;
+	}
+
+.divClose, .divOpen{
+	border:1px solid #036;
+	height:80px;
+	position:absolute;
+	background:#FFF;
+	width:100%;
+	height:80px;
+	*height:72px;
+	*left:0px;
+	*top:20px;
+}
+
+.divClose{
+	display:none;
+}
+.divOpen{
+	display:block;
+}

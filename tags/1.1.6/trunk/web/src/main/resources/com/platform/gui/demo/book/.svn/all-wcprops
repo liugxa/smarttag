@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/152/tags/1.1.6/trunk/web/src/main/resources/com/platform/gui/demo/book
+END
+package.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/152/tags/1.1.6/trunk/web/src/main/resources/com/platform/gui/demo/book/package.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/152/tags/1.1.6/trunk/web/src/main/resources/com/platform/gui/demo/book/struts.xml
+END

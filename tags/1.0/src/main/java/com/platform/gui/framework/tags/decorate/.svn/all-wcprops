@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate
+END
+PrecentColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/PrecentColumnDecorate.java
+END
+IColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/IColumnDecorate.java
+END
+NumberColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/NumberColumnDecorate.java
+END
+ColumnDecorateFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/ColumnDecorateFactory.java
+END
+DefaultColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/DefaultColumnDecorate.java
+END
+URLColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/URLColumnDecorate.java
+END
+DateColumnDecorate.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/14/tags/1.0/src/main/java/com/platform/gui/framework/tags/decorate/DateColumnDecorate.java
+END

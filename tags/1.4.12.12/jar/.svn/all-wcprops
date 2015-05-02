@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/400/tags/1.4.12.12/jar
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/400/tags/1.4.12.12/jar/pom.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/400/tags/1.4.12.12/jar/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/400/tags/1.4.12.12/jar/.classpath
+END

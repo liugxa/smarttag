@@ -1,0 +1,21 @@
+{
+id:0,
+name:"Number of CPUs",
+unit:"1 CPU (2.5 GHz)",
+price:"$0.05"
+}
+
+{
+id:1,
+name:"Number of Cores",
+unit:"1 Core (1.25 GHz)",
+price:"$0.025"
+}
+
+
+{
+id:2,
+name:"Memory",
+unit:"GB",
+price:"$0.025"
+}

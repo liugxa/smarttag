@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/com/platform/gui/demo/request
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/com/platform/gui/demo/request/application.properties
+END
+application_zh_CN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/com/platform/gui/demo/request/application_zh_CN.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/149/tags/1.1.6.beat/web/src/main/resources/com/platform/gui/demo/request/struts.xml
+END

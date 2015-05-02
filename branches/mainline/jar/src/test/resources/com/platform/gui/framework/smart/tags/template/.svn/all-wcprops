@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template
+END
+listTable.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/listTable.ftl
+END
+button.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/button.ftl
+END
+tableGrid.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/tableGrid.ftl
+END
+option.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/option.ftl
+END
+column.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/column.ftl
+END
+preferences.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/preferences.ftl
+END
+listTable-footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/listTable-footer.ftl
+END
+filter.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/filter.ftl
+END
+pagination.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/pagination.ftl
+END
+list-header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/list-header.ftl
+END
+select.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/select.ftl
+END
+list.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/list.ftl
+END
+section.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/section.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/input.ftl
+END
+list-footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/list-footer.ftl
+END
+listTable-header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/listTable-header.ftl
+END
+common.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/280/branches/mainline/jar/src/test/resources/com/platform/gui/framework/smart/tags/template/common.ftl
+END

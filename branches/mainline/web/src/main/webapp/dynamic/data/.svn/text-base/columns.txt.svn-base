@@ -1,0 +1,35 @@
+{
+id:0,
+title:"Application Running Environments (VM)",
+
+names:["name","cpus","memory","storage","platform","software","price"],
+values:["Offering Name","# of CPUs (2.5GHz)","Memory (GB)","Storage (GB)","Platform","Software","Hourly Price"]
+}
+
+
+{
+id:1,
+title:"Packaged Computing Capacity (VM)",
+
+names:["name","cpus","memory","storage","price"],
+values:["Offering Name","# of CPUs (2.5GHz)","Memory (GB)","Storage (GB)","Hourly Price"]
+}
+
+
+{
+id:2,
+title:"Raw Computing Capacity (VM)",
+
+
+names:["name","unit","price"],
+values:["Offering Name","Unit","Hourly Price"]
+}
+
+
+{
+id:3,
+title:"Physical Machines",
+
+names:["name","model",	"type",	"ncpus",	"ncores",	"speed",	"memory","os",	"price"],
+values:["Offering Name","Model",	"Processor Type",	"Number of CPUs",	"Number of Cores per CPU",	"CPU Speed (GHz)",	"Memory (GB)","OS",	"Hourly Price"]
+}

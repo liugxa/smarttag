@@ -1,0 +1,27 @@
+{
+id:0,
+name:"Small Compute",
+cpus:1,
+memory:2,
+storage:10,
+price:"$0.10"
+}
+
+{
+id:1,
+name:"Medium Compute",
+cpus:2,
+memory:4,
+storage:20,
+price:"$0.20"
+}
+
+{
+id:2,
+name:"Large Compute",
+cpus:4,
+memory:8,
+storage:40,
+price:"$0.40"
+}
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/32/tags/1.1
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/32/tags/1.1/pom.xml
+END
+todo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/32/tags/1.1/todo.txt
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/32/tags/1.1/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/32/tags/1.1/.classpath
+END

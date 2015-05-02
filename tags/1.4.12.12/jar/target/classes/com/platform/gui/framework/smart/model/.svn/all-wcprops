@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model
+END
+DataSection.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/DataSection.class
+END
+PreferenceConfigure.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/PreferenceConfigure.class
+END
+DataItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/DataItem.class
+END
+DataColumn.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/DataColumn.class
+END
+FilterData.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/FilterData.class
+END
+DataElement.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/DataElement.class
+END
+FilterCondition.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/model/FilterCondition.class
+END

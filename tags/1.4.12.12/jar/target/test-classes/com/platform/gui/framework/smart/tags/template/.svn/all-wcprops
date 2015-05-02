@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template
+END
+listTable.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/listTable.ftl
+END
+TestSmartListTable.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/TestSmartListTable.class
+END
+tableGrid.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/tableGrid.ftl
+END
+form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/form.ftl
+END
+SmartTestSuite.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/SmartTestSuite.class
+END
+TestSmartTableGrid.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/TestSmartTableGrid.class
+END
+preferences.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/preferences.ftl
+END
+filter.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/filter.ftl
+END
+scripts.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/scripts.ftl
+END
+pagination.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/pagination.ftl
+END
+common.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/test-classes/com/platform/gui/framework/smart/tags/template/common.ftl
+END

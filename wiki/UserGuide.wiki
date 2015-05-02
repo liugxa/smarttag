@@ -1,0 +1,294 @@
+#labels UserGuid
+== Environment ==
+ * Check out the code from the svn/trunk and execute the maven command to build the jar file.
+  
+ * Copy the jar file into your /WEB-INF/lib
+  
+ * Add the prefix into your JSP file
+   {{{
+   <%@ taglib prefix="pf" uri="http://www.platform.com/tags" %>
+   }}}
+  
+ * (Optional) Add the <pf:header/> in your JSP file to include the required CSS/JS/images. (see the web filter section)
+
+ * Define the list table and filter (see below)
+
+== List Table==
+ * *Define the columns (Static or Dynamic)*
+  * *Static columns*
+  {{{
+  <pf:list name="request" action="/request/toList.action" resource="com.platform.gui.demo.request.application" form="">
+   <pf:table>
+     <pf:column key="id" name="ids" label="request.id" decorate="checkbox-all" parameters="['0' , '1']" style="width:100" title="title.request.id"/>
+     <pf:column name="date" label="Date" decorate="date" parameters="MM/dd/yyyy"/>
+     <pf:column name="name" label="Request Name" decorate="link" parameters="/request/toRequest.action" align="right"/>
+     <pf:column name="user" label="User" disable="true"/>
+     <pf:column name="status" label="Status"/>
+     <pf:column name="machines" label="# of Machines" align="right"/>
+     <pf:column name="memory" label="Memory Usage"/>
+     <pf:column name="desc" label="Description" escape="true" decorate="summary" parameters="100"/>
+     <pf:action name="action" label="Actions" disable="true">
+       <pf:option label="Action" name="action"/>
+       <pf:option label="----" name="----"/>
+       <pf:option label="Start" name="start"/>
+       <pf:option label="Stop" name="stop"/>
+     </pf:action>
+   </pf:table>	
+ </pf:list>
+ }}}
+  * *Dynamic columns* 
+  The smart tag support define the "columns" in your java code. In accordance with the following steps to define the dynamic filter item.
+   # declare the dataColumn/dataColumnDecorate in JSP 
+ {{{
+  <pf:list name="request" dataColumn="${dataColumn}" dataColumnDecorate="${dataColumnDecorate}" ...>
+   .... .....
+  </pf:list>
+ }}}
+   # define the property values in your Action
+ {{{ 
+  public class YourAction extends AbstractAction{
+ 	
+ 	private IDataRecordList<Object> dataRecords;
+ 
+ 	private IDataColumn dataColumn;
+ 	
+ 	private IDataColumnDecorate dataColumnDecorate;
+ 
+ 	public IDataRecordList<Object> getDataRecords() {
+ 		return dataRecords;
+ 	}
+ 
+ 	public void setDataRecords(IDataRecordList<Object> dataRecords) {
+ 		this.dataRecords = dataRecords;
+ 	}
+ 
+ 	public IDataColumn getDataColumn() {
+ 		return dataColumn;
+ 	}
+ 
+ 	public void setDataColumn(IDataColumn dataColumn) {
+ 		this.dataColumn = dataColumn;
+ 	}
+ 
+ 	public IDataColumnDecorate getDataColumnDecorate() {
+ 		return dataColumnDecorate;
+ 	}
+ 
+ 	public void setDataColumnDecorate(IDataColumnDecorate dataColumnDecorate) {
+ 		this.dataColumnDecorate = dataColumnDecorate;
+ 	}
+ }
+ }}}
+   # implement the dataColumn/dataColumnDecorate interface
+    * the IDataColumn interface. it told the smart tag how many columns should be display in the page.
+ {{{ 
+  public interface IDataColumn{
+     /**
+      * Return the data column which implement the IDataColumn interface.
+      *
+      * NOTE
+      * user can choice to define the column information in JSP file,implement the interface
+      * or define it into the preference file.
+      *
+      * PRIORITY
+      * Preference > JSP file > interface.
+      */
+     public List<DataColumn> getDataColumns() throws Exception;
+  }
+ }}}
+    * the IDataColumnDecorate interface. it told the smart tag how to decorate the column value.the smart tag support some of the default column decorates: *checkbox/checkbox-all/percent/date/number/link/select/radio/summary*, you just only change the decorate name in the JSP or java code, the tag will display different style by you input values.
+ {{{ 
+  public interface IDataColumnDecorate {
+ 
+ 	/**
+ 	 * Get the column decorate object
+ 	 * @param columnName
+ 	 * @return
+ 	 * @throws Exception
+ 	 */
+ 	public IColumnDecorate getColumnDecorate(String columnName) throws Exception;
+  } 
+ }}}
+
+ * *Implement the IDataRecordList interface*
+ {{{
+public interface IEnablePagination<T> {
+	
+	/**
+	 * Get the record size
+	 * @return
+	 * @throws Exception
+	 */
+	public Integer getAllRecordSize() throws Exception;
+	
+	/**
+	 * Get all of the records
+	 * @return
+	 * @throws Exception
+	 */
+	public List<T> getAllRecords() throws Exception;
+	
+	/**
+	 * Get all of the records and sort it
+	 * @return
+	 * @throws Exception
+	 */
+	public List<T> getAllRecords(String sortBy , SortOrder sortOrder) throws Exception;
+	
+	/**
+	 * Get the records from startIndex to endIndex
+	 * @param startIndex
+	 * @param endIndex
+	 * @return
+	 * @throws Exception
+	 */
+	public List<T> getRecords(Integer startIndex , Integer endIndex , String sortBy , SortOrder sortOrder) throws Exception;
+}
+ }}}
+=== Filter ===
+ * *Define the filter items (Static or Dynamic)*
+  * *Static items*
+ {{{
+ <pf:list .... >
+  <pf:filter label="filter">
+    <!-- Section 1: Find -->
+    <pf:section name="section0" label="Find this host">
+      <pf:item label="Request Name" name="name" decorate="input"/>
+      <pf:button label="Find"/>
+    </pf:section>
+    <!-- Section 2: Search -->
+    <pf:section name="section1" label="Filter hosts by" isDefault="true">
+      <pf:item label="filter.request.state" name="state" decorate="select" parameters="{'aa':'AA','bb':'BB'}" value="Any"/>
+      <pf:item label="Request Date"  name="date" decorate="select" parameters="{'cc':'CC','ee':'EE'}" value="Any"/>
+      <pf:item label="# of Machines" name="machines" decorate="input" value="Any"/>
+      <pf:button label="Filter"/>
+    </pf:section>
+  </pf:filter>
+ </pf:list>
+
+ *NOTE* for the i18n, you just only need change the "label" name to the value which has been declared in the properties file. e.g:
+ <pf:item label="request.name" name="name" decorate="input"/>
+ }}}
+  * *Dynamic Filter items*
+  The smart tag support define the "filter items" in your java code. In accordance with the following steps to define the dynamic filter item.
+   # declare the dataItem/dataItemDecorate in JSP
+   {{{
+    <pf:list name="request" dataItem="${dataItem}" dataItemDecorate="${dataItemDecorate}" ...>
+    .... .....
+   </pf:list>
+   }}}
+   # define the property values in your Action
+   {{{
+    public class YourJavaAction extends ListTableAction<Request>{
+    
+       // data record list	
+       private IDataRecordList<Request> dataRecords;	
+  
+       // the filter data items 
+       private IDataItem dataItem;	
+ 
+       // the filter data item decorate
+       private IDataItemDecorate dataItemDecorate;
+  
+       //get/set method
+       public IDataRecordList<Request> getDataRecords() {
+         return dataRecords;
+       }
+  
+       public void setDataRecords(IDataRecordList<Request> dataRecords) {
+         this.dataRecords = dataRecords;
+       }
+ 
+       public IDataItem getDataItem() {
+         return dataItem;
+       }
+    
+       public void setDataItem(IDataItem dataItem) {
+          this.dataItem = dataItem;
+       }
+    
+       public IDataItemDecorate getDataItemDecorate() {
+          return dataItemDecorate;
+       }
+    
+       public void setDataItemDecorate(IDataItemDecorate dataItemDecorate) {
+          this.dataItemDecorate = dataItemDecorate;
+       }   
+     }
+    
+   *NOTE* If your action do NOT extends the ListTableAction, 
+ you should define a new property - FilterData in your Action and do not forgot to define its get/set method.*This is the smart tag's issue and it is very hard to fix it by use the OGNL to parse the data in the interceptor*
+   }}}
+   # implement the dataItem/dataItemDecorate interface
+    * the IDataItem interface. it told the smart tag how many items should be display in the page.
+    {{{
+     public interface IDataItem{
+     /**
+      * Return the data column which implement the IDataColumn interface.
+      *
+      * NOTE
+      * user can choice to define the column information in JSP file,implement the interface
+      * or define it into the preference file.
+      *
+      * PRIORITY
+      * Preference > JSP file > interface.
+      */
+     public List<DataItem> getDataItems() throws Exception;
+    }
+   }}}
+    * the IDataItemDecorate interface. it told the smart tag how to decorate the item. by default, the smart tag support three decorate: *input/select/radio/checkbox/time*. You just only change the "decorate" name in JSP file, the tag will show different styles by you input values.
+    {{{
+     public interface IDataItemDecorate{
+ 	/**
+ 	 * Decorate the column value.
+ 	 * Some of the default decorate has been implements in the tag jar file. 
+ 	 * NumberColumnDecorate,DateColumnDecorate,PrecentColumnDecorate,URLColumnDecorate.
+ 	 * 
+ 	 * And you can return these default decorates by use 
+ 	 * ColumnDecorateFactory.getDecorateFromBean
+ 	 * 
+ 	 * @param column name
+ 	 * @return String
+ 	 * @throws Exception
+ 	 */
+ 	public String decorate(TableContext context, Integer index , FilterData filterData , DataItem item) throws Exception;
+     }
+    }}}
+   
+ * *Implement the IEnableFilter interface*
+  the "dataRecords" which be defined in your Action should implements the IEnableFilter interface. if it extends the DefaultDataRecordList, you do not needs implements it and it has support the default implementation for the filter.
+   {{{
+     public interface IEnableFilter<T> {
+ 	/**
+ 	 * Get the filter record size
+ 	 * @return
+ 	 * @throws Exception
+ 	 */
+ 	public Integer getFilterRecordSize(FilterData filterData) throws Exception;
+ 
+ 	/**
+ 	 * Filter the data
+ 	 * @param filterData
+ 	 * @return
+ 	 * @throws Exception
+ 	 */
+ 	public List<T> getAllFilterRecords(FilterData filterData) throws Exception;
+ 	
+ 	/**
+ 	 * Filter the data and sort it
+ 	 * @param filterData
+ 	 * @return
+ 	 * @throws Exception
+ 	 */
+ 	public List<T> getAllFilterRecords(FilterData filterData , String sortBy , SortOrder sortOrder) throws Exception;
+ 	
+ 	/**
+ 	 * Filter the data
+ 	 * @param filterData
+ 	 * @return
+ 	 * @throws Exception
+ 	 */
+ 	public List<T> getFilterRecords(FilterData filterData , Integer startIndex , Integer endIndex , String sortBy , SortOrder sortOrder) throws Exception;
+ 	
+    }
+   }}}

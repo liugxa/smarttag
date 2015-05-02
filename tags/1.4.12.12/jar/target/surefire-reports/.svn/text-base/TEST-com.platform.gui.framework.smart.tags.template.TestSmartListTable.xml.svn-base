@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="1.036" failures="0" name="com.platform.gui.framework.smart.tags.template.TestSmartListTable">
+  <properties>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="local/gliu:/tmp/.ICE-unix/3422" name="env.SESSION_MANAGER"/>
+    <property value="|/usr/bin/lesspipe.sh %s" name="env.LESSOPEN"/>
+    <property value="/root/.m2/repository" name="localRepository"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="scim" name="env.QT_IM_MODULE"/>
+    <property value=":pserver:gliu@cvssrv:/cvs/CVS" name="env.CVSROOT"/>
+    <property value="HotSpot Server Compiler" name="sun.management.compiler"/>
+    <property value="Linux" name="os.name"/>
+    <property value="/data/jdk5/jre/lib/rt.jar:/data/jdk5/jre/lib/i18n.jar:/data/jdk5/jre/lib/sunrsasign.jar:/data/jdk5/jre/lib/jsse.jar:/data/jdk5/jre/lib/jce.jar:/data/jdk5/jre/lib/charsets.jar:/data/jdk5/jre/classes" name="sun.boot.class.path"/>
+    <property value="/data/workspace/smarttag/jar" name="env.PWD"/>
+    <property value="gnome" name="sun.desktop"/>
+    <property value="en_US.UTF-8" name="env.LANG"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="1.5.0_12-b04" name="java.runtime.version"/>
+    <property value="scim-bridge" name="env.GTK_IM_MODULE"/>
+    <property value="1000" name="env.HISTSIZE"/>
+    <property value=":0.0" name="env.DISPLAY"/>
+    <property value="root" name="user.name"/>
+    <property value="root" name="env.USER"/>
+    <property value="/bin/bash" name="env.SHELL"/>
+    <property value="/usr" name="env.KDEDIR"/>
+    <property value="/usr/lib64/qt-3.3/lib" name="env.QTLIB"/>
+    <property value="default" name="env.DESKTOP_SESSION"/>
+    <property value="/usr/dt/lib/nls/msg/%L/%N.cat" name="env.NLSPATH"/>
+    <property value="/data/jdk5/bin:/bin:/data/apache-maven-2.0.9/bin:/data/jdk5/bin:/bin:/data/apache-maven-2.0.9/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/root/bin" name="env.PATH"/>
+    <property value="en" name="user.language"/>
+    <property value="/data/jdk5/jre/lib/i386" name="sun.boot.library.path"/>
+    <property value="/data/apache-maven-2.0.9/bin/m2.conf" name="classworlds.conf"/>
+    <property value="1.5.0_12" name="java.version"/>
+    <property value="Asia/Chongqing" name="user.timezone"/>
+    <property value="unix:abstract=/tmp/dbus-0XFME4uCTy,guid=9d13714a2ea98310c9f3cbc74360e100" name="env.DBUS_SESSION_BUS_ADDRESS"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="3488" name="env.SSH_AGENT_PID"/>
+    <property value="/data/jdk5/jre/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="" name="sun.cpu.isalist"/>
+    <property value="UTF-8" name="sun.jnu.encoding"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="2" name="env.SHLVL"/>
+    <property value="gliu" name="env.HOSTNAME"/>
+    <property value="/" name="file.separator"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="/usr/lib64/qt-3.3" name="env.QTDIR"/>
+    <property value="Default" name="env.GNOME_DESKTOP_SESSION_ID"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="default" name="env.GDMSESSION"/>
+    <property value="US" name="user.country"/>
+    <property value="/data/jdk5/jre" name="java.home"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="/data/tomcat" name="env.CATALINA_HOME"/>
+    <property value="root" name="env.LOGNAME"/>
+    <property value="2.6.18-53.el5" name="os.version"/>
+    <property value="1" name="env.G_BROKEN_FILENAMES"/>
+    <property value=":" name="path.separator"/>
+    <property value="1.5.0_12-b04" name="java.vm.version"/>
+    <property value="/usr/lib64/qt-3.3/include" name="env.QTINC"/>
+    <property value="/data/jdk5" name="env.JAVA_HOME"/>
+    <property value="sun.print.PSPrinterJob" name="java.awt.printerjob"/>
+    <property value="xterm" name="env.TERM"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="@im=SCIM" name="env.XMODIFIERS"/>
+    <property value="/root" name="user.home"/>
+    <property value="/data/workspace/smarttag/jar" name="env.OLDPWD"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="62914582" name="env.WINDOWID"/>
+    <property value="/data/jdk5/jre/lib/i386/server:/data/jdk5/jre/lib/i386:/data/jdk5/jre/../lib/i386" name="java.library.path"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value="local" name="env.GDM_XSERVER_LOCATION"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="/data/apache-maven-2.0.9" name="maven.home"/>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/data/apache-maven-2.0.9/boot/classworlds-1.1.jar" name="java.class.path"/>
+    <property value="ssh" name="env.CVS_RSH"/>
+    <property value="/usr/dt/app-defaults/%L/Dt" name="env.XFILESEARCHPATH"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="/etc/gtk/gtkrc:/root/.gtkrc-1.2-gnome2" name="env.GTK_RC_FILES"/>
+    <property value="/root" name="env.HOME"/>
+    <property value="/data/workspace/smarttag/jar/target/test-classes:/data/workspace/smarttag/jar/target/classes:/root/.m2/repository/org/htmlparser/htmlparser/1.6/htmlparser-1.6.jar:/data/jdk5/jre/../lib/tools.jar:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/root/.m2/repository/org/apache/struts/struts2-core/2.0.9/struts2-core-2.0.9.jar:/root/.m2/repository/com/opensymphony/xwork/2.0.4/xwork-2.0.4.jar:/root/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/root/.m2/repository/opensymphony/ognl/2.6.11/ognl-2.6.11.jar:/root/.m2/repository/freemarker/freemarker/2.3.8/freemarker-2.3.8.jar:/root/.m2/repository/org/apache/struts/struts2-sitemesh-plugin/2.0.9/struts2-sitemesh-plugin-2.0.9.jar:/root/.m2/repository/opensymphony/sitemesh/2.2.1/sitemesh-2.2.1.jar:/root/.m2/repository/org/apache/struts/struts2-spring-plugin/2.0.9/struts2-spring-plugin-2.0.9.jar:/root/.m2/repository/org/springframework/spring-beans/2.0.5/spring-beans-2.0.5.jar:/root/.m2/repository/org/springframework/spring-core/2.0.5/spring-core-2.0.5.jar:/root/.m2/repository/org/springframework/spring-context/2.0.5/spring-context-2.0.5.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/org/springframework/spring-web/2.0.5/spring-web-2.0.5.jar:/root/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/root/.m2/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar:/root/.m2/repository/ecs/ecs/1.4.2/ecs-1.4.2.jar:/root/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar:/root/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/root/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/root/.m2/repository/jfree/jfreechart/1.0.1/jfreechart-1.0.1.jar:/root/.m2/repository/jfree/jcommon/1.0.0/jcommon-1.0.0.jar:/root/.m2/repository/net/sf/json-lib/json-lib/2.2.3/json-lib-2.2.3-jdk15.jar:/root/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/root/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/root/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/root/.m2/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar:" name="surefire.test.class.path"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="/data/jdk5/jre/lib/i386/server:/data/jdk5/jre/lib/i386:/data/jdk5/jre/../lib/i386" name="env.LD_LIBRARY_PATH"/>
+    <property value="no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:" name="env.LS_COLORS"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="/tmp/ssh-aYZapk3422/agent.3422" name="env.SSH_AUTH_SOCK"/>
+    <property value="1" name="env.KDE_NO_IPV6"/>
+    <property value="sun.awt.X11GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="i386" name="os.arch"/>
+    <property value="/data/jdk5/jre/lib/ext" name="java.ext.dirs"/>
+    <property value="/data/workspace/smarttag/jar" name="user.dir"/>
+    <property value="/tmp/.gdmHM6AYU" name="env.XAUTHORITY"/>
+    <property value="/data/apache-maven-2.0.9" name="env.MAVEN_HOME"/>
+    <property value="
+" name="line.separator"/>
+    <property value="/etc/inputrc" name="env.INPUTRC"/>
+    <property value="Java HotSpot(TM) Server VM" name="java.vm.name"/>
+    <property value="gnome-terminal" name="env.COLORTERM"/>
+    <property value="/data/workspace/smarttag/jar" name="basedir"/>
+    <property value="UTF-8" name="file.encoding"/>
+    <property value="/tmp/keyring-DTIf41/socket" name="env.GNOME_KEYRING_SOCKET"/>
+    <property value="/var/spool/mail/root" name="env.MAIL"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="1" name="env.KDE_IS_PRELINKED"/>
+    <property value="/usr/libexec/openssh/gnome-ssh-askpass" name="env.SSH_ASKPASS"/>
+  </properties>
+  <testcase classname="com.platform.gui.framework.smart.tags.template.TestSmartListTable" time="1.013" name="testSmartFilter"/>
+</testsuite>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/328/branches/1.2.5
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/328/branches/1.2.5/README.txt
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/328/branches/1.2.5/pom.xml
+END
+todo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/328/branches/1.2.5/todo.txt
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/328/branches/1.2.5/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/328/branches/1.2.5/.classpath
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/classes
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/classes/xwork-conversion.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/classes/log4j.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/classes/applicationContext.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/classes/struts.xml
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/400/tags/1.4.12.12/web/target/classes/struts.properties
+END

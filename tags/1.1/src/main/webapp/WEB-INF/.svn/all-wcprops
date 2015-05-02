@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/32/tags/1.1/src/main/webapp/WEB-INF
+END
+decorators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/32/tags/1.1/src/main/webapp/WEB-INF/decorators.xml
+END
+dwr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/32/tags/1.1/src/main/webapp/WEB-INF/dwr.xml
+END
+sitemesh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/32/tags/1.1/src/main/webapp/WEB-INF/sitemesh.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/32/tags/1.1/src/main/webapp/WEB-INF/web.xml
+END
+listTable.tld
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/32/tags/1.1/src/main/webapp/WEB-INF/listTable.tld
+END

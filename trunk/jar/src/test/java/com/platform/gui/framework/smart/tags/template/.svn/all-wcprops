@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/399/trunk/jar/src/test/java/com/platform/gui/framework/smart/tags/template
+END
+SmartTestSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/334/trunk/jar/src/test/java/com/platform/gui/framework/smart/tags/template/SmartTestSuite.java
+END
+TestSmartTableGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/374/trunk/jar/src/test/java/com/platform/gui/framework/smart/tags/template/TestSmartTableGrid.java
+END
+TestSmartListTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/375/trunk/jar/src/test/java/com/platform/gui/framework/smart/tags/template/TestSmartListTable.java
+END
+TestSmartSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/399/trunk/jar/src/test/java/com/platform/gui/framework/smart/tags/template/TestSmartSelect.java
+END

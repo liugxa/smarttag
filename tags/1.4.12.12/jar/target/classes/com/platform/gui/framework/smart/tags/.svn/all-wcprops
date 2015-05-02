@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags
+END
+SmartPreferenceTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartPreferenceTag.class
+END
+SmartElementTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartElementTag.class
+END
+SmartFilterTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartFilterTag.class
+END
+SmartColumnTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartColumnTag.class
+END
+SmartItemTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartItemTag.class
+END
+SmartSectionTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartSectionTag.class
+END
+SmartButtonTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartButtonTag.class
+END
+SmartTableGridTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartTableGridTag.class
+END
+SmartListTableTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartListTableTag.class
+END
+SmartHeaderTag.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/400/tags/1.4.12.12/jar/target/classes/com/platform/gui/framework/smart/tags/SmartHeaderTag.class
+END

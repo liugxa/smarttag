@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/419/trunk
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/334/trunk/README.txt
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/419/trunk/pom.xml
+END
+todo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/334/trunk/todo.txt
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/408/trunk/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/408/trunk/.classpath
+END

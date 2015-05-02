@@ -1,0 +1,34 @@
+package com.platform.gui.demo.request.action;
+
+import com.platform.gui.demo.request.model.Request;
+import com.platform.gui.demo.request.model.RequestDataRecordList;
+import com.platform.gui.framework.smart.action.ListTableAction;
+import com.platform.gui.framework.smart.inter.IDataColumn;
+import com.platform.gui.framework.smart.inter.IDataRecordList;
+
+public class RequestAction extends ListTableAction<Request>{
+
+	private static final long serialVersionUID = 1L;
+	
+	public String toList() throws Exception{
+		return SUCCESS;
+	}
+
+	public String registRecordDataName() throws Exception{
+		return "requests";
+	}
+	
+	@Override
+	public IDataRecordList<Request> registRecordDataList() throws Exception{
+		return new RequestDataRecordList();
+	}
+
+	@Override
+	public IDataColumn registDataColumn() throws Exception {
+		//do not need to implement this interface because we
+		//has define it into the JSP file
+		return null;
+	}
+	
+	
+}
